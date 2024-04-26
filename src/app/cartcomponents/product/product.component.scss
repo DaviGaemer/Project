@@ -1,0 +1,215 @@
+.cart{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 500px;
+    border-bottom: 3px solid lightgray;
+    width: 900px;
+    height: 40px;
+}
+.Products{
+    display: flex;
+    justify-content: center;
+}
+.qty{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.proceed{
+    display: flex;
+    justify-content: end;
+}
+.pro{
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.pro:hover{
+    background-color: yellow;
+    border: none;
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    font-size: 13px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.img{
+    height: 150px;
+}
+.Prodd{
+    display: flex;
+}
+.Name{
+    display: flex;
+    gap: 20px;
+}
+.text{
+    display: flex;
+    margin-left: 160px;
+    gap: 30px;
+}
+.serv{
+    height: 30px;
+    width: 50px;
+    margin-left: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.serv:hover{
+    height: 30px;
+    width: 50px;
+    margin-left: 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pl{
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pl:hover{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.mark{
+    height: 25px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+    .cart{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .product{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-top: 50px;
+        top: 500px;
+        left: -200px;
+        border-bottom: 3px solid lightgray;
+        width: 900px;
+        margin-left: 500px;
+        height: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .qty{
+        display: flex;
+        justify-content: center;
+    }
+    .proceed{
+        display: flex;
+        justify-content: center;
+        margin-left: 700px
+    }
+    .pro{
+        background-color: red;
+        border: none;
+        height: 40px;
+        width: 180px;
+        margin-top: 20px;
+        font-size: 13px;
+        transition: 0.5s;
+    }
+    .pro:hover{
+        background-color: yellow;
+        border: none;
+        height: 40px;
+        width: 180px;
+        margin-top: 20px;
+        font-size: 13px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .img{
+        height: 150px;
+    }
+    .prodd{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 600px;
+        left: 330px;
+    }
+    .Name{
+        display: flex;
+    }
+    .text{
+        display: flex;
+        margin-left: 160px;
+    }
+    .serv{
+        height: 30px;
+        width: 50px;
+        margin-left: 20px;
+        background-color: red;
+        border: none;
+        border-radius: 3px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .serv:hover{
+        height: 30px;
+        width: 50px;
+        margin-left: 20px;
+        background-color: yellow;
+        border: none;
+        border-radius: 3px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .pl{
+        height: 30px;
+        width: 40px;
+        background-color: gray;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .pl:hover{
+        height: 25px;
+        width: 30px;
+        background-color: yellow;
+        border: none;
+        border-radius: 3px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .Prod{
+        font-size: 20px;
+    }
+  }

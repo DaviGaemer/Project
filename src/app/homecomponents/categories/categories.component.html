@@ -1,0 +1,18 @@
+<div class="All">
+<div class="all">
+    <div>
+        <p class="cat">Categories</p>
+    </div>
+    <div class="Dishes">
+    <div class="dishes">
+        <h1 (click)="getAllProduct()" class="al">ALL</h1>
+        <div *ngFor="let item of categories">
+        <h1 class="a" (click)="categoryFilter(item.id)">{{item.name}}</h1>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="img">
+<img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/435407234_392940593557086_5439920031651214781_n.png?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=NzYRyVLtFTcAb7oxtaD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QFu8culEt6U57Y4eNBtftrHlNhOiApxWG0tWNx_YMZXrg&oe=66431BE1" alt="">
+</div>

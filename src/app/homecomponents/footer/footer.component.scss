@@ -1,0 +1,42 @@
+.img{
+    height: 10px;
+    width: 1940px;
+    position: absolute;
+    margin-top: 95px;
+}
+.all{
+    margin-top: 100px;
+}
+.red{
+    background-color: red;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+}
+@media only screen and (max-width: 800px){
+    .img{
+        height: 10px;
+        width: 1940px;
+        position: absolute;
+        margin-top: 95px;
+        display: none;
+    }
+    .all{
+        margin-top: 100px;
+    }
+    .red{
+        background-color: red;
+        height: 60px;
+        width: 1940px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        color: white;
+    }
+}

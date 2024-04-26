@@ -1,0 +1,50 @@
+.text{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: red;
+    height: 40px;
+    gap: 20px;
+}
+.home{
+    margin-left: 300px;
+}
+.cart{
+    color: yellow;
+}
+.bor{
+    position: absolute;
+    top: 400px;
+}
+.bor1{
+    position: absolute;
+    top: 440px;
+}
+@media only screen and (max-width: 800px) {
+    .text{
+        display: flex;
+        align-items: center;
+        color: white;
+        position: absolute;
+        top: 405px;
+        width: 1940px;
+        background-color: red;
+        height: 100px;
+        gap: 20px;
+        font-size: 50px;
+    }
+    .home{
+        margin-left: 300px;
+    }
+    .cart{
+        color: yellow;
+    }
+    .bor{
+        position: absolute;
+        top: 400px;
+    }
+    .bor1{
+        position: absolute;
+        top: 503px;
+    }
+  }

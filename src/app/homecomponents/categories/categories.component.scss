@@ -1,0 +1,123 @@
+.cat{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+.dishes{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    gap: 15px;
+    margin-top: 80px;
+    height: 70px;
+    width: 1500px;
+    cursor: pointer;
+}
+.Dishes{
+    display: flex;
+    justify-content: center;
+}
+.al{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.al:hover{
+    background-color: red;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.a{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.a:hover{
+    background-color: red;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+img{
+    width: 1300px;
+    height: 5px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+    .cat{
+        display: flex;
+        justify-content: center;
+        font-size: 75px;
+        position: absolute;
+        left: 400px;
+        margin-top: 400px;
+    }
+    .dishes{
+        position: absolute;
+        top: 450px;
+        left: 250px;
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 700px;
+        height: 500px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .al{
+        display: flex;
+        transition: 0.5s;
+    }
+    .al:hover{
+        background-color: red;
+        color: white;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+    .a{
+        display: flex;
+        transition: 0.5s;
+    }
+    .a:hover{
+        background-color: red;
+        color: white;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+    img{
+        width: 1300px;
+        margin-left: -60px;
+        height: 5px;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+  }
