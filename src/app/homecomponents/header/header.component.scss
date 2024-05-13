@@ -60,12 +60,18 @@
     color: yellow;
     border-bottom:3px solid yellow;
 }
+.burger{
+    display: none;
+}
 .moto{
     height: 30px;
     width: 35px;
     position: fixed;
     top: 40px;
     right: 260px;
+}
+.motos{
+    display: none;
 }
 .moto:hover {
     animation-name: moto;
@@ -125,35 +131,34 @@
         height: 400px;
         width: 1600px;
     }
-    .cart{
-        background-color: red;
-        width: 180px;
-        height: 70px;
+    .burger{
         display: flex;
-        justify-content: center;
-        border-radius: 10px;
-        font-size: 50px;
+        height: 80px;
+        width: 80px;
+        position: fixed;
+        top: 55px;
+        right: 510px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+    .cart{
+        display: none;
     }
     .home:hover{
         color: yellow;
         border-bottom:3px solid yellow;
     }
-    .moto{
-        height: 90px;
-        width: 105px;
+    .motos{
+        display: flex;
+        height: 130px;
+        width: 130px;
         position: fixed;
         top: 20px;
         right: 600px;
     }
-    .moto:hover {
-        animation-name: moto;
-        animation-duration: 5s;
-        cursor: pointer;
-      }
-    @keyframes moto {
-        from {right: 260px;}
-        to {right: 220px;}
-      }
+    .moto{
+        display: none;
+    }
   }
 
 

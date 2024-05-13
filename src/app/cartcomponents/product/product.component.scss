@@ -49,6 +49,8 @@
 }
 .Prodd{
     display: flex;
+    border-bottom: 3px solid lightgray;
+    margin-top: 10px;
 }
 .Name{
     display: flex;
@@ -119,7 +121,7 @@
         left: -200px;
         border-bottom: 3px solid lightgray;
         width: 900px;
-        margin-left: 500px;
+        margin-left: 350px;
         height: 40px;
     }
     p{
@@ -157,11 +159,10 @@
         height: 150px;
     }
     .prodd{
-        display: flex;
         justify-content: center;
         position: absolute;
         top: 600px;
-        left: 330px;
+        left: 140px;
     }
     .Name{
         display: flex;
@@ -199,6 +200,12 @@
         border-radius: 100px;
         transition: 0.5s;
         cursor: pointer;
+    }
+    .Prodd{
+        display: flex;
+        border-bottom: 3px solid lightgray;
+        margin-top: 10px;
+        width: 900px;
     }
     .pl:hover{
         height: 25px;

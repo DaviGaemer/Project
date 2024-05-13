@@ -44,4 +44,11 @@ export class ServiceService {
       console.log(data)
     })
   }
+  getAllCategories() {
+    return this.http.get("https://restaurant.stepprojects.ge/api/Categories/GetAll")
+  }
+  
+  getCategoryById(id: any) {
+    return this.http.get(`https://restaurant.stepprojects.ge/api/Categories/GetCategory/${id}`)
+  }
 }

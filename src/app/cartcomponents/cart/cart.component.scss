@@ -8,6 +8,7 @@
 }
 .home{
     margin-left: 300px;
+    cursor: pointer;
 }
 .cart{
     color: yellow;
@@ -29,12 +30,12 @@
         top: 405px;
         width: 1940px;
         background-color: red;
-        height: 100px;
+        height: 70px;
         gap: 20px;
-        font-size: 50px;
+        font-size: 25px;
     }
     .home{
-        margin-left: 300px;
+        margin-left: 200px;
     }
     .cart{
         color: yellow;
@@ -45,6 +46,6 @@
     }
     .bor1{
         position: absolute;
-        top: 503px;
+        top: 472px;
     }
   }

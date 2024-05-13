@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './homecomponents/header/header.component';
 import { CategoriesComponent } from './homecomponents/categories/categories.component';
-import { CardComponent } from './homecomponents/dishes/card.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CartpageComponent } from './pages/cartpage/cartpage.component';
 import { FormsModule } from '@angular/forms';
@@ -21,7 +20,6 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     CategoriesComponent,
-    CardComponent,
     HomepageComponent,
     CartpageComponent,
     FooterComponent,
